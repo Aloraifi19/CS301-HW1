@@ -3,9 +3,14 @@ package edu.up.cs301.campusmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-/**
- * Created by fahadalarifi on 9/3/17.
- */
+/*
+   *This class represents a single map token (Person) that can be drawn on a canvas. This class is a child class of SimpleMapToken
+   * It only overrides the drawing method
+   *
+   * @author of child class <Fahd Aloraifi>
+   *@version September 2017
+   *
+   */
 
 public class CustomToken extends SimpleMapToken
 {
